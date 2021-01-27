@@ -16,7 +16,7 @@ export default function Table(props) {
     return props.rows.map(row => {
       return (
         <tr>
-          <td>{row.title}</td>
+          <td><a href="https://google.com">{row.title}</a></td>
           <td>{row.upvotes}</td>
           <td>{row.date}</td>
         </tr>
