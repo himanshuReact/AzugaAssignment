@@ -1,0 +1,7 @@
+.article__details{
+  margin: 2vw auto;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
